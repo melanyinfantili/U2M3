@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const metros= parseInt(prompt ('Ingrese la distancia a recorrer:',''))
+        if (metros>=0 && metros<=1000){
+           document.write(`Medio de transporte a utilizar con ${metros} metros es a Pie`); 
+        } else if (metros>=1001 && metros<=10000){
+           document.write(`Medio de transporte a utilizar con ${metros} metros es a Bicicleta`); 
+        } else if (metros>=10001 && metros<=30000){
+           document.write(`Medio de transporte a utilizar con ${metros} metros es a Colectivo`); 
+        } else if (metros>=30001 && metros<=100000){
+           document.write(`Medio de transporte a utilizar con ${metros} metros es a Auto`); 
+        } else {
+           document.write(`Medio de transporte a utilizar con ${metros} metros es a Avion`); 
+        }
+
+        
+    </script>
+    
+</body>
+</html>
